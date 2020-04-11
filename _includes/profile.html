@@ -1,0 +1,52 @@
+{% assign pd = site.data.profile %}
+<section class="profile fc-wrapper">
+    <div class="profile-top flex">
+        <div class="profile-image fr-wrapper">
+
+        </div>
+        <div class="profile-detail-wrapper fr-wrapper">
+            <div class="profile-detail-left pd-df">
+                <div class="name">
+                    <span class="name-kor">{{pd.name.kor}}</span> <span class="name-eng">({{pd.name.eng}})</span>
+                </div>
+                <div class="job">{{pd.job}}</div>
+                <div class="now">우아한 테크코스</div>
+            </div>
+            <div class="profile-detail-right pd-df">
+                <div class="flex mg-df">
+                    <img class="logo" src="/assets/images/birthday.svg" alt="">
+                    <span class="profile-item birthday">{{pd.birthday}}</span>
+                </div>
+                <div class="flex mg-df">
+                    <img class="logo" src="/assets/images/mobile.svg" alt="">
+                    <span class="profile-item mobile">{{pd.mobile}}</span>
+                </div>
+                <div class="flex mg-df">
+                    <img class="logo" src="/assets/images/email.svg" alt="">
+                    <a href="mailto:{{pd.email}}" class="profile-item no-underline" itemprop="email">{{pd.email}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="line flex"></div>
+    <div class="fr-wrapper profile-site-wrapper">
+        <div class="profile-site-item">
+            <div class="flex mg-df">
+                <img class="logo" src="/assets/images/github-image.svg" alt="">
+                <a class="no-underline profile-item" href="http://{{pd.github}}">{{pd.github}}</a>
+            </div>
+        </div>
+        <div class="profile-site-item">
+            <div class="fc-wrapper">
+                <div class="flex mg-df">
+                    <img class="logo" src="/assets/images/blog.svg" alt="">
+                    <a class="no-underline profile-item" href="http://{{pd.blog.solo}}">{{pd.blog.solo}}</a>
+                </div>
+                <div class="flex mg-df">
+                    <img class="logo" src="/assets/images/blog.svg" alt="">
+                    <a class="no-underline profile-item" href="http://{{pd.blog.team}}">{{pd.blog.team}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

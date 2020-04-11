@@ -1,12 +1,10 @@
 <!doctype html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link href="/assets/css/styles.css" rel="stylesheet">
-</head>
+{% include head.html %}
 <body>
-{% include navigation.html %}
-{{ content }}
+<div class="content fc-wrapper">
+    {% include profile.html %}
+    {% include experience.html %}
+</div>
 </body>
 </html>
