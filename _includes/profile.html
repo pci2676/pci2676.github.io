@@ -10,7 +10,7 @@
                     <span class="name-kor">{{pd.name.kor}}</span> <span class="name-eng">({{pd.name.eng}})</span>
                 </div>
                 <div class="job">{{pd.job}}</div>
-                <div class="now">우아한 테크코스</div>
+                <div class="now">@{{pd.now}}</div>
             </div>
             <div class="profile-detail-right pd-df">
                 <div class="flex mg-df">
@@ -23,7 +23,7 @@
                 </div>
                 <div class="flex mg-df">
                     <img class="logo" src="/assets/images/email.svg" alt="">
-                    <a href="mailto:{{pd.email}}" class="profile-item no-underline" itemprop="email">{{pd.email}}</a>
+                    <a href="mailto:{{pd.email}}" class="profile-item " itemprop="email">{{pd.email}}</a>
                 </div>
             </div>
         </div>
@@ -33,18 +33,18 @@
         <div class="profile-site-item">
             <div class="flex mg-df">
                 <img class="logo" src="/assets/images/github-image.svg" alt="">
-                <a class="no-underline profile-item" href="http://{{pd.github}}">{{pd.github}}</a>
+                <a class=" profile-item" href="http://{{pd.github}}">{{pd.github}}</a>
             </div>
         </div>
         <div class="profile-site-item">
             <div class="fc-wrapper">
                 <div class="flex mg-df">
                     <img class="logo" src="/assets/images/blog.svg" alt="">
-                    <a class="no-underline profile-item" href="http://{{pd.blog.solo}}">{{pd.blog.solo}}</a>
+                    <a class=" profile-item" href="http://{{pd.blog.solo}}">{{pd.blog.solo}} (개인)</a>
                 </div>
                 <div class="flex mg-df">
                     <img class="logo" src="/assets/images/blog.svg" alt="">
-                    <a class="no-underline profile-item" href="http://{{pd.blog.team}}">{{pd.blog.team}}</a>
+                    <a class=" profile-item" href="http://{{pd.blog.team}}">{{pd.blog.team}} (팀)</a>
                 </div>
             </div>
         </div>

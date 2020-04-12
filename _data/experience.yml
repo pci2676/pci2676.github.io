@@ -1,0 +1,70 @@
+carrers:
+  - role: 주문 개발팀 인턴
+    time: 2019.07 ~ 2019.12
+    company: 위메프
+    details: |
+      - 사내 자리 배치도 웹 구축
+        - 사용기술 : Java8, Spring boot, MySql, MyBatis, JavaScript, Handlebars
+        - 기존 엑셀로 작성되어 분산 관리되던 플랫폼 개발실의 자리배치도를 한 곳에서 통합 관리 할 수 있도록 웹 앱으로 구축
+      - 주문 개발팀 테스트 코드 작성
+        - 사용기술 : Junit4
+        - 주문 개발팀 담당 비즈니스 로직에 테스트 코드가 존재하지 않아 개발자가 런타임에 테스트, 디버그하는 작업을 줄이기 위해
+          신규 투입된 지역상품 프로젝트에서 비즈니스 로직에 대한 테스트 코드를 작성
+
+studies:
+  - subject: 우아한 테크코스 백엔드 Java 레벨 1
+    time: 2020.02 ~ 2020.04
+    details: |
+      프로그래밍 기본
+        - 자바 프로그래밍 언어에 대한 기본 문법을 익혀 프로그래밍하는 경험을 한다.
+        읽기 좋은 코드를 구현하는 것이 왜 중요한지와 코드를 개선해 읽기 좋은 코드로 변경해 보는 경험을 한다.
+        자신이 구현한 코드에 대해 단위 테스트와 리팩토링하는 경험을 한다.
+        웹 프론트엔드에서 웹 백엔드까지 프로그래밍해 웹 애플리케이션을 개발하는 경험을 한다.
+
+  - subject: NEXTSTEP - TDD, Refactoring, Clean Code 6기
+    time: 2019.10 ~ 2019.11
+    details: |
+      - 유지보수하기 좋은코드
+        - 프로그래머 작업 중 가장 많은 시간을 투자하는 일이 유지보수이다. 유지보수하기 좋은 코드를 구현하는 것은 서비스의 성패를 좌우하는 중요한 요소이다. 유지보수하기 좋은 코드를 구현하는 핵심은 클린 코드 구현에 있다.
+      - 변화에 대응하는 핵심 능력
+        - 운영 중 필연적으로 발생하기 마련인 기능 추가, 버그 수정, 레거시 코드 리뷰 및 수정 작업과 같은 변화 자체에 확장성있게 대응하려면 클린 코드에 대한 이해와 작성 능력이 필수. 변화를 피할 수 없으면 제대로 대응하자.
+      - 프로젝트 협업 능력 향상
+        - 읽기 좋은 클린 코드를 작성함으로서 오는 장점은 개인에게만 있지 않다. 특히 1인 개발이 아닌, 여러 개발자가 함께 참여하는 프로젝트일수록 확장성 있는 코드 작성 능력을 가진 개발자의 기여도는 높을 수 밖에 없다.
+
+  - subject: Clean Code Study
+    time: 2019.02 ~ now
+    details: |
+      - 객체지향언어인 Java를 올바르게 사용하기 위해 시작된 스터디
+      - TDD로 Java 애플리케이션(자동차게임, 로또, 사다리 게임)을 작성하여 좋은 설계를 하기 위한 학습을 진행
+      - Spring boot을 이용한 게시판을 구현하며 MVC 레이어 테스트 작성법에 대한 학습
+      - 객체지향의 사실과 오해, Effective Java를 읽으며 더 좋은 코드를 작성하기 위해 노력
+        - Github repository/issue를 통해 책을 통해 배운 내용을 정리중 (https://github.com/Java-Bom/ReadingRecord/issues)
+      - Github PR을 이용한 온라인 코드리뷰 진행
+
+projects:
+  - role: 리그오브레전드의 공개 API를 통해 유저의 게임 정보와 주기적으로 갱신되는 정적 데이터를 스케쥴링
+    time: 2019.07 ~ now
+    subject: Professor-LoL
+    reward:
+    skills: Java, Spring boot, MySQL, JPA, QueeryDSL, Junit5
+    details: |
+      - 온라인 게임 리그오브레전드 유의 모스트 챔피언의 업데이트 내역을 구독 할 수 있는 서비스
+        - 멀티모듈 프로젝트를 도입하여 모듈간 의존성 확립
+        - Jacoco를 적용하여 전체 프로젝트의 테스트 커버리지 70% 유지
+        - Github의 PR을 이용한 코드리뷰 진행
+
+  - role: Java Backend, 시각 장애인 도보, 버스 안내 구현
+    time: 2019.07
+    subject: I-Eye
+    reward: 특별상
+    skills: Java, Spring boot, MySQL, JPA
+    details: |
+      - 대중교통 활성화를 위한 2019 서울 통합이동서비스(Maas) 해커톤에서 시각장애인을 위한 도보 안내 및 버스 예약 애플리케이션을 개발하여 특별상 수상.
+
+  - role: Java BackEnd
+    time: 2018.12 ~ 2019.01
+    subject: tooc
+    reward: 장려상
+    skills: Java, Spring boot, MySQL, MyBatis
+    details: |
+      - 관광객과 쇼핑객을 위한 짐 보관 서비스 플랫폼

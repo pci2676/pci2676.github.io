@@ -1,0 +1,79 @@
+.profile {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.profile-top {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.profile-image {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 34%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  overflow: hidden;
+}
+
+.profile-detail-wrapper {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.profile-detail-left {
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.now{
+  color: gray;
+  font-weight: abs(50);
+}
+
+.profile-detail-right {
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.profile-item {
+  margin-top: 0.2rem;
+}
+
+.name-kor {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.name-eng {
+  font-size: 1.5rem;
+}
+
+.job {
+  font-size: 1rem;
+  color: gray;
+  padding-top: -1rem;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.now {
+  font-size: 1rem;
+  color: black;
+}
+
+.profile-site-wrapper {
+  width: 100%;
+  font-size: 1rem;
+}
+
+.profile-site-item {
+  display: flex;
+  margin-right: 4rem;
+}
