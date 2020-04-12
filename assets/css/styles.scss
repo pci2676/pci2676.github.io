@@ -1,6 +1,10 @@
 ---
 ---
 
+@CHARSET "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+.nanum { font-family: 'Nanum Barun Gothic'; }
+
 @import "main";
 @import "profile";
 @import "experience";
