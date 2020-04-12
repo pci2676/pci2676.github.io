@@ -1,19 +1,29 @@
 {% assign ed = site.data.experience %}
 <section class="experience fc-wrapper">
+
+    <div class="category-wrapper">
+        <div class="category">
+            <img class="logo-big" src="/assets/images/career.svg" alt="">직무 경력
+        </div>
+    </div>
     <div class="fc-wrapper career-wrapper">
         {% for career in ed.careers %}
-            <div class="experience-item career">
-                <div class="fr-wrapper">
-                    <div class="company">{{ career.company }}</div>
-                    <div class="time">({{ career.time }})</div>
-                </div>
-                <div class="role">직책 : {{ career.role }}</div>
-                <div class="skills">기술 스택 : {{ career.skills }}</div>
-                <div class="details">{{ career.details | markdownify }}</div>
+        <div class="experience-item career">
+            <div class="fr-wrapper">
+                <div class="company">{{ career.company }}</div>
+                <div class="time">({{ career.time }})</div>
             </div>
+            <div class="role">직책 : {{ career.role }}</div>
+            <div class="skills">기술 스택 : {{ career.skills }}</div>
+            <div class="details">{{ career.details | markdownify }}</div>
+        </div>
         {% endfor %}
     </div>
     <div class="line"></div>
+
+    <div class="category-wrapper">
+        <div class="category"><img class="logo-big" src="/assets/images/study.svg" alt="">학습</div>
+    </div>
     <div class="fc-wrapper study-wrapper">
         {% for study in ed.studies %}
         <div class="experience-item study">
@@ -28,6 +38,9 @@
     </div>
     <div class="line"></div>
 
+    <div class="category-wrapper">
+        <div class="category"><img class="logo-big" src="/assets/images/project.svg" alt="">프로젝트</div>
+    </div>
     <div class="fc-wrapper project-wrapper">
         {% for project in ed.projects %}
         <div class="experience-item project">
