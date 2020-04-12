@@ -1,0 +1,35 @@
+.experience-item{
+  padding: 0.5rem;
+}
+
+.company{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.subject{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.host{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  color: rgba(51, 130, 61, 0.86);
+}
+
+.time{
+  padding-top: 0.3rem;
+  margin-right: 0.6rem;
+}
+
+.reward{
+  padding-top: 0.3rem;
+  margin-right: 0.6rem;
+}
