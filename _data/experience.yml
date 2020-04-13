@@ -2,14 +2,16 @@ careers:
   - role: 주문 개발팀 인턴
     time: 2019.07 ~ 2019.12
     company: 위메프
-    skills: Java8, Spring boot, MySql, MyBatis, JavaScript, Handlebars
+    skills: Java8, Spring boot, MySql, MyBatis, JavaScript(ES5), Handlebars
     details: |
       - 사내 자리 배치도 웹 구축
         - 기존 엑셀로 작성되어 분산 관리되던 플랫폼 개발실의 자리배치도를 한 곳에서 통합 관리 할 수 있도록 웹 앱으로 구축
+      - 주문 모니터링 시스템(OMS) 코드 리팩토링
+        - 기존 코드중 Service에 중복, 절차지향적으로 작성되어 있던 코드를 도메인 객체에게 책임을 위임하는 방식으로 코드 리팩토링
       - 주문 개발팀 테스트 코드 작성
         - 주문 개발팀 담당 비즈니스 로직에 테스트 코드가 존재하지 않아<br>
           개발자가 런타임에 테스트, 디버그하는 작업이 필요하였던 점을 개선하기 위해<br>
-          신규 투입된 지역상품 프로젝트에서 비즈니스 로직에 대한 테스트 코드를 작성
+          투입된 프로젝트에서 비즈니스 로직에 대한 테스트 코드를 작성
 
 studies:
   - subject: 백엔드 Java 레벨 1
@@ -40,9 +42,10 @@ studies:
 
   - subject: Clean Code Study
     host: Java Bom
-    time: 2019.02 ~ now
+    time: 2019.02 ~ Present
     details: |
-      - 객체지향언어인 Java를 올바르게 사용하기 위해 시작된 스터디
+      - 객체지향언어인 Java를 올바르게 사용하기 위해 시작한 스터디
+      - 소트웍스 앤솔러지에서 발췌한 객체지향 생활체조 9가지 규칙을 지키며 코드 작성
       - TDD로 Java 애플리케이션(자동차게임, 로또, 사다리 게임)을 작성하여 좋은 설계를 하기 위한 학습을 진행
       - Spring boot을 이용한 게시판을 구현하며 MVC 레이어 테스트 작성법에 대한 학습
       - 객체지향의 사실과 오해, Effective Java를 읽으며 더 좋은 코드를 작성하기 위해 노력
@@ -50,30 +53,36 @@ studies:
       - Github PR을 이용한 온라인 코드리뷰 진행
 
 projects:
-  - role: 리그오브레전드의 공개 API를 통해 유저의 게임 정보와 주기적으로 갱신되는 정적 데이터를 스케쥴링
-    time: 2019.07 ~ now
+  - role: Java BackEnd, 리그오브레전드의 공개 API를 통해 유저의 게임 정보와 주기적으로 갱신되는 정적 데이터를 스케쥴링
+    time: 2019.07 ~ Present
     subject: Professor-LoL
+    title: 온라인 게임 리그오브레전드 유저의 모스트 챔피언의 업데이트 내역을 구독 할 수 있는 서비스
     reward:
-    skills: Java, Spring boot, MySQL, JPA, QueryDSL, Junit5
+    skills: Java, Spring boot, MySQL, JPA, QueryDSL, Junit5, Travis
     details: |
-      - 온라인 게임 리그오브레전드 유저의 모스트 챔피언의 업데이트 내역을 구독 할 수 있는 서비스
-        - 멀티모듈 프로젝트를 도입하여 모듈간 의존성 확립
-        - Jacoco를 적용하여 전체 프로젝트의 테스트 커버리지 70% 유지
-        - Github의 PR을 이용한 코드리뷰 진행
+      - gradle 멀티모듈 프로젝트를 적하여 모듈간 의존성 분리
+      - Jacoco를 적용하여 전체 프로젝트의 테스트 커버리지 70% 유지
+      - Git Flow 적용 및 Github PR을 이용한 코드리뷰 진행
+      - Travis를 이용한 CI
 
-  - role: Java Backend, 시각 장애인 도보, 버스 안내 구현
+  - role: 기획, Java Backend, 시각 장애인 도보, 버스 안내 구현
     time: 2019.07
     subject: I-Eye
+    title: 시각장애인을 위한 도보 안내 및 버스 예약 애플리케이션
     reward: 특별상
     skills: Java, Spring boot, MySQL, JPA
     details: |
-      - 대중교통 활성화를 위한 2019 서울 통합이동서비스(Maas) 해커톤
-        - 시각장애인을 위한 도보 안내 및 버스 예약 기능 구현
+        - 대중교통 활성화를 위한 2019 서울 통합이동서비스(Maas) 해커톤
+          - 서울시 공공데이터 API를 이용하여 가장 가까운 버스 정류장, 도착시간, 번호 안내기능 구현
+          - T-Map API를 이용하여 도보 안내 기능 구현
 
   - role: Java BackEnd
     time: 2018.12 ~ 2019.01
     subject: Tooc
+    title: 관광객과 쇼핑객을 위한 짐 보관 서비스
     reward: 장려상
-    skills: Java, Spring boot, MySQL, MyBatis
+    skills: Java, Spring boot, MySQL, MyBatis, Nginx, Jenkins
     details: |
-      - 전국 대학생 연합 IT 창업 동아리 SOPT에 참여하여 만든 관광객과 쇼핑객을 위한 짐 보관 서비스 플랫폼
+      - 전국 대학생 연합 IT 창업 동아리 SOPT 서버파트 23기에 참여하여 만든 서비스
+        - 매장 보관 예약 서비스 기능 및 수용 가능여부 확인 기능 구현
+        - CI/CD와 무중단 배포를 위해 Jenkins, Nginx 이용
