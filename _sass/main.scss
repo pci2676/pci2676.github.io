@@ -95,3 +95,15 @@ a:hover {
   height: 2px;
   border-radius: 10px;
 }
+
+.category-wrapper {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.category {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 0.1rem solid rgba(172, 166, 162, 0.86);
+}
