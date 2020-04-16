@@ -1,5 +1,8 @@
+{% assign ad = site.data.academic.univ %}
 <section class="academic">
     <div class="category-wrapper">
         <div class="category"><img class="logo-big" src="/assets/images/academic.svg" alt="">학력</div>
     </div>
+    <div>{{ ad.title }} {{ad.major}}</div>
+    <div class="experience-item">{{ ad.graduation.time }} {{ ad.graduation.status }}</div>
 </section>

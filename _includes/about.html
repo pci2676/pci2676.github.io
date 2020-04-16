@@ -1,5 +1,9 @@
+{% assign me = site.data.about %}
 <section class="about">
     <div class="category-wrapper">
         <div class="category"><img class="logo-big" src="/assets/images/about.svg" alt="">자기소개</div>
+    </div>
+    <div>
+        {{ me.contents }}
     </div>
 </section>
