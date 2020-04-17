@@ -45,9 +45,16 @@ studies:
     time: 2019.02 ~ Present
     details: |
       - 객체지향언어인 Java를 올바르게 사용하기 위해 시작한 스터디
+        - 관련 토이 프로젝트
+          - <a href="https://github.com/Java-Bom/calculator">문자열 계산기</a>
+          - <a href="https://github.com/Java-Bom/racing-game">자동차 게임</a>
+          - <a href="https://github.com/Java-Bom/lotto">로또 게임</a>
+          - <a href="https://github.com/Java-Bom/ladder-game">사다리 게임</a>
       - 소트웍스 앤솔러지에서 발췌한 객체지향 생활체조 9가지 규칙을 지키며 코드 작성
       - TDD로 Java 애플리케이션(자동차게임, 로또, 사다리 게임)을 작성하여 좋은 설계를 하기 위한 학습을 진행
       - Spring boot을 이용한 게시판을 구현하며 MVC 레이어 테스트 작성법에 대한 학습
+        - 관련 토이 프로젝트
+          - <a href="https://github.com/Java-Bom/java-qna">질의 응답 게시판</a>
       - 객체지향의 사실과 오해, Effective Java를 읽으며 더 좋은 코드를 작성하기 위해 노력
         - Github <a href="https://github.com/Java-Bom/ReadingRecord">repository</a>/<a href="https://github.com/Java-Bom/ReadingRecord/issues">issue</a>를 통해 책을 통해 배운 내용을 정리중
       - Github PR을 이용한 온라인 코드리뷰 진행
