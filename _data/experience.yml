@@ -2,27 +2,35 @@ careers:
   - role: 주문 개발팀 인턴
     time: 2019.07 ~ 2019.12
     company: 위메프
-    skills: Java8, Spring boot, MySql, MyBatis, JavaScript(ES5), Handlebars
+    skills: Java8, Spring boot, MySql, MyBatis, JavaScript, Handlebars
     details: |
-      - 사내 자리 배치도 웹 구축
-        - 기존 엑셀로 작성되어 분산 관리되던 플랫폼 개발실의 자리배치도를 한 곳에서 통합 관리 할 수 있도록 웹 앱으로 구축
-      - 주문 모니터링 시스템(OMS) 코드 리팩토링
-        - 기존 코드중 Service에 중복, 절차지향적으로 작성되어 있던 코드를 도메인 객체에게 책임을 위임하는 방식으로 코드 리팩토링
       - 주문 개발팀 테스트 코드 작성
         - 주문 개발팀 담당 비즈니스 로직에 테스트 코드가 존재하지 않아<br>
           개발자가 테스트와 디버그를 런타임에 해야했던 점을 개선하기 위해<br>
           투입된 프로젝트에서 비즈니스 로직에 대한 테스트 코드를 작성
+        - 팀내에서 사용하던 Util성 코드에 대한 테스트 코드 작성
+      - 주문 모니터링 시스템(OMS) 코드 리팩토링
+        - 기존 코드중 Service에 중복, 절차지향적으로 작성되어 있던 코드를 도메인 객체에게 책임을 위임하는 방식으로 코드 리팩토링
+      - 사내 자리 배치도 웹 구축 (On boarding - 토이 프로젝트)
+        - 기존 엑셀로 작성되어 분산 관리되던 플랫폼 개발실의 자리배치도를 한 곳에서 통합 관리 할 수 있도록 웹 앱으로 구축
 
 studies:
+  - subject: 백엔드 Java 레벨 3
+    host: 우아한 테크코스
+    time: 2020-07-07 ~ 2020-08-28
+    details: |
+      - 팀 프로젝트
+        - 팀 프로젝트를 통해 팀원들간의 소통, 협업, 회고 경험을 한다.
+        - 일반 사용자가 사용할 수 있는 성격의 프로젝트를 만든다.
+
   - subject: 백엔드 Java 레벨 2
     host: 우아한 테크코스
     time: 2020-04-21 ~ 2020-06-12
     details: |
-      - 웹 프로그래밍과 미니 팀 프로젝트
+      - 웹 프로그래밍
         - Spring 프레임워크 기반으로 웹 애플리케이션을 개발하는 경험을 한다.
         - TDD, ATDD 기반으로 웹 애플리케이션을 개발하고 리팩토링하는 경험을 한다.
         - 구현한 프로그램을 서버에 배포하는 경험을 한다.
-        - 팀 프로젝트를 통해 팀원들간의 소통, 협업, 회고 경험을 한다.
 
   - subject: 백엔드 Java 레벨 1
     host: 우아한 테크코스
@@ -66,13 +74,14 @@ studies:
       - Spring boot을 이용한 게시판을 구현하며 MVC 레이어 테스트 작성법에 대한 학습
         - 관련 토이 프로젝트
           - <a href="https://github.com/Java-Bom/java-qna">질의 응답 게시판</a>
+          - <a href="https://github.com/Java-Bom/cafe">카페 POS</a>
       - 객체지향의 사실과 오해, Effective Java를 읽으며 더 좋은 코드를 작성하기 위해 노력
         - Github <a href="https://github.com/Java-Bom/ReadingRecord">repository</a>/<a href="https://github.com/Java-Bom/ReadingRecord/issues">issue</a>를 통해 책을 통해 배운 내용을 정리중
       - Github PR을 이용한 온라인 코드리뷰 진행
 
 projects:
   - role: Java BackEnd, 리그오브레전드의 공개 API를 통해 유저의 게임 정보와 주기적으로 갱신되는 정적 데이터를 스케쥴링
-    time: 2019.07 ~ Present
+    time: 2019.07 ~ 2020.02
     subject: Professor-LoL
     title: 온라인 게임 리그오브레전드 유저의 모스트 챔피언의 업데이트 내역을 구독 할 수 있는 서비스
     reward:
