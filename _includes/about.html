@@ -6,4 +6,13 @@
     <div class="about-contents">
         {{ me.contents }}
     </div>
+    <br/><br/>
+
+    <div class="calendar" style="width: 100%;">
+        Loading the data just for you.
+    </div>
+
+    <script>
+        new GitHubCalendar(".calendar", "pci2676", {responsive: true, cache: 3600, global_stats: false});
+    </script>
 </section>
