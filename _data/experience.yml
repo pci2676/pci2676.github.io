@@ -14,6 +14,15 @@ careers:
         - 기존 엑셀로 작성되어 분산 관리되던 플랫폼 개발실의 자리배치도를 한 곳에서 통합 관리 할 수 있도록 웹 앱으로 구축
 
 studies:
+  - subject: 백엔드 Java 레벨 4
+    host: 우아한 테크코스
+    time: 2020-09-08 ~ 2020-11-04
+    details: |
+      - 웹 서버를 직접 만들어보는 경험을 통해 HTTP에 대한 이해도를 높인다.
+      - 레거시 코드를 리팩토링하는 경험을 한다.
+      - 대용량 데이터에 처리에 대한 역량을 쌓는다.
+      - 성능을 고려해 시스템을 설계하고,구축하는 경험을 한다.
+
   - subject: 백엔드 Java 레벨 3
     host: 우아한 테크코스
     time: 2020-07-07 ~ 2020-08-28
@@ -67,11 +76,12 @@ studies:
         - 관련 토이 프로젝트
           - <a href="https://github.com/Java-Bom/calculator">문자열 계산기</a>
           - <a href="https://github.com/Java-Bom/racing-game">자동차 게임</a>
+          - <a href="https://github.com/Java-Bom/base-ball">숫자 야구 게임</a>
           - <a href="https://github.com/Java-Bom/lotto">로또 게임</a>
           - <a href="https://github.com/Java-Bom/ladder-game">사다리 게임</a>
       - 소트웍스 앤솔러지에서 발췌한 객체지향 생활체조 9가지 규칙을 지키며 코드 작성
       - TDD로 Java 애플리케이션(자동차게임, 로또, 사다리 게임)을 작성하여 좋은 설계를 하기 위한 학습을 진행
-      - Spring boot을 이용한 게시판을 구현하며 MVC 레이어별 테스트 작성법에 대한 학습
+      - Spring boot을 이용한 웹 어플리케이션을 구현하며 MVC 레이어별 테스트 작성법에 대한 학습
         - 관련 토이 프로젝트
           - <a href="https://github.com/Java-Bom/java-qna">질의 응답 게시판</a>
           - <a href="https://github.com/Java-Bom/cafe">카페 POS</a>
