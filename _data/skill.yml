@@ -1,9 +1,12 @@
 skill:
   - name: Java
-    - level: high
+    level: high
+
   - name: JPA
-    - level: mid
+    level: mid
+
   - name: Spring boot
-    - level: mid
+    level: mid
+
   - name: Vue
-    - level: low
+    level: low
