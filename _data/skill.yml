@@ -1,0 +1,9 @@
+skill:
+  - name: Java
+    - level: high
+  - name: JPA
+    - level: mid
+  - name: Spring boot
+    - level: mid
+  - name: Vue
+    - level: low
