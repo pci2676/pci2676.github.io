@@ -98,7 +98,7 @@ projects:
     skills: Java, Spring boot, MariaDB, JPA, QueryDSL, Junit5, Vue.js, Jenkins
     details: |
       - <a href="https://github.com/woowacourse-teams/2020-songpa-people">GITHUB</a>
-      - gradle 멀티모듈 프로젝트를 적하여 모듈간 의존성 분리
+      - gradle 멀티모듈 프로젝트를 적용하여 모듈간 의존성 분리
         - 사용자 서비스 모듈과 백 오피스용 어드민 모듈 분리 배포
       - ThreadPoolTaskScheduler를 이용한 주기적인 기반 데이터(ex. 가게, 해시태그) 수집
       - Jacoco를 적용하여 프로젝트의 모듈별 테스트 커버리지 관리
