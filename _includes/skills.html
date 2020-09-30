@@ -1,0 +1,31 @@
+{% assign skills = site.data.skills.skills %}
+<section class="about fc-wrapper">
+    <div class="category-wrapper">
+        <div class="category"><img class="logo-big" src="/assets/images/skill.svg" alt="">기술</div>
+    </div>
+
+    현재 사용중이거나 사용해 본 기술입니다.
+
+
+    {% for skill in skills %}
+    <div class="line"></div>
+    <div class="skill-container">
+        <div class="skill-category-container">
+            <div class="skill-category">
+                <h4>
+                    {{ skill.name }}
+                </h4>
+            </div>
+        </div>
+        <div class="skill-items-container">
+            <div class="skill-items">
+                {% for item in skill.items %}
+                {{ item | markdownify }}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+    <br/><br/>
+</section>

@@ -1,0 +1,26 @@
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.skill-category-container {
+  display: flex;
+  padding-left: 20px;
+  margin-right: 100px;
+}
+
+.skill-category {
+  display: flex;
+  width: 100px;
+}
+
+.skill-items-container{
+  display: flex;
+  width: 350px;
+}
+
+.skill-items {
+  display: flex;
+}
+

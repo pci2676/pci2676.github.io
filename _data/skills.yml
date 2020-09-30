@@ -1,0 +1,26 @@
+skills:
+  - skill:
+    name: Backend
+    items: |
+      - Java, Groovy
+      - Spring Boot, Spring MVC, Spring Batch, Spring Data JPA
+      - Querydsl
+      - Junit5, Mockito
+      - Gradle, Maven
+      - IntelliJ
+
+  - skill:
+    name: DevOps
+    items: |
+      - MySQL, MariaDB
+      - Jenkins, TravisCI
+      - RDS (MySQL), S3, EC2
+      - Nginx, Tomcat
+      - Linux Centos
+
+  - skill:
+    name: Frontend
+    items: |
+      - ES6
+      - Npm
+      - Vue, Handlebars
