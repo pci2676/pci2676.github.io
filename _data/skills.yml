@@ -2,7 +2,7 @@ skills:
   - skill:
     name: Backend
     items: |
-      - Java, Groovy
+      - Java
       - Spring Boot, Spring MVC, Spring Batch, Spring Data JPA
       - Querydsl
       - Junit5, Mockito
