@@ -95,7 +95,7 @@ projects:
     subject: <a href="https://themiso.kr">The Miso</a>
     title: 인스타그램 해시태그 개수를 이용한 핫 플레이스 지도 시각화 서비스
     reward:
-    skills: Java, Spring boot, MariaDB, JPA, QueryDSL, Junit5, Vue.js, Jenkins
+    skills: Java, Spring boot, Spring Data JPA, Spring Data Batch, MariaDB, QueryDSL, Junit5, Vue.js, Jenkins
     details: |
       - <a href="https://github.com/woowacourse-teams/2020-songpa-people">GITHUB</a>
       - ThreadPoolTaskScheduler 를 이용한 주기적인 기반 데이터 수집
