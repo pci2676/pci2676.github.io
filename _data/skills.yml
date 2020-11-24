@@ -2,10 +2,10 @@ skills:
   - skill:
     name: Backend
     items: |
-      - Java
-      - Spring Boot, Spring MVC, Spring Batch, Spring Data JPA
+      - <strong>Java</strong>
+      - <strong>Spring Boot</strong>, Spring MVC, Spring Batch, <strong>Spring Data JPA</strong>
       - Querydsl
-      - Junit5, Mockito
+      - <strong>Junit5</strong>, Mockito
       - Gradle, Maven
       - IntelliJ
 
@@ -23,4 +23,4 @@ skills:
     items: |
       - ES6
       - Npm
-      - Vue, Handlebars
+      - <strong>Vue</strong>, Handlebars
