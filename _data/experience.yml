@@ -1,4 +1,8 @@
 careers:
+  - role: 결제서비스팀 개발
+    time: 2020.12 ~ now
+    company: 우아한형제들
+    skills: Java8, Spring boot, Spring Data JPA, MySQL, VueJS
   - role: 주문 개발팀 인턴
     time: 2019.07 ~ 2019.12
     company: 위메프
