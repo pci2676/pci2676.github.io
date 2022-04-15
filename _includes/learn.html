@@ -1,0 +1,18 @@
+{% assign learnData = site.data.learn %}
+<section class="experience fc-wrapper">
+    <div class="category-wrapper">
+        <div class="category"><img class="logo-big" src="/assets/images/study.svg" alt="">학습</div>
+    </div>
+    <div class="fc-wrapper study-wrapper">
+        {% for study in learnData.studies %}
+        <div class="experience-item study">
+            <div class="fr-wrapper">
+                <div class="subject flex">{{ study.subject }}</div>
+                <div class="host flex">{{study.host}}</div>
+                <div class="time flex">({{ study.time }})</div>
+            </div>
+            <div class="details flex">{{ study.details | markdownify }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

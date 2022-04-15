@@ -2,10 +2,10 @@ skills:
   - skill:
     name: Backend
     items: |
-      - <strong>Java</strong>
-      - <strong>Spring Boot</strong>, Spring MVC, Spring Batch, <strong>Spring Data JPA</strong>
+      - Java, Kotlin
+      - Spring Boot, Spring MVC, Spring Batch, Spring Data JPA
       - Querydsl
-      - <strong>Junit5</strong>, Mockito
+      - Junit5, Mockito
       - Gradle, Maven
       - IntelliJ
 
@@ -14,7 +14,7 @@ skills:
     items: |
       - MySQL, MariaDB
       - Jenkins, TravisCI
-      - RDS (MySQL), S3, EC2
+      - AWS RDS (MySQL), S3, EC2, SQS, SNS, CodeDeploy, ELB, ASG
       - Nginx, Tomcat
       - Linux Centos
 
@@ -23,4 +23,4 @@ skills:
     items: |
       - ES6
       - Npm
-      - <strong>Vue</strong>, Handlebars
+      - VueJs, Handlebars
